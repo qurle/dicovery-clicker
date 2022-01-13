@@ -1,7 +1,7 @@
 {
-    "name": "Discovery Clicker",
+    "name": "Steam Discovery Clicker",
     "description": "Go through Steam Discovery Queue with ease",
-    "version": "1.0",
+    "version": "1.0.1",
     "author": "Nick Qurle",
     "manifest_version": 3,
     "icons": {
@@ -9,9 +9,7 @@
         "48": "icon48.png",
         "128": "icon128.png"
     },
-    "permissions": [
-        "storage"
-    ],
+    "permissions": [],
     "content_scripts": [
         {
             "matches": [
